@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigation_destaques"
+        android:icon="@drawable/ic_home_black_24dp"
+        android:title="@string/titulo_destaques" />
+
+    <item
+        android:id="@+id/navigation_filmes"
+        android:icon="@drawable/ic_filmes_foreground"
+        android:title="@string/titulo_filmes" />
+
+    <item
+        android:id="@+id/navigation_cinema"
+        android:icon="@drawable/ic_cinema_foreground"
+        android:title="@string/titulo_cinema" />
+
+    <item
+        android:id="@+id/navigation_noticias"
+        android:icon="@drawable/ic_noticias_foreground"
+        android:title="@string/titulo_noticias" />
+
+</menu>

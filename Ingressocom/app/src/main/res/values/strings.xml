@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Ingresso.com</string>
+    <string name="titulo_destaques">Destaques</string>
+    <string name="titulo_filmes">Filmes</string>
+    <string name="titulo_cinema">Cinema</string>
+    <string name="titulo_noticias">Notícias</string>
+
+</resources>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/navigation_destaques">
+
+    <fragment
+        android:id="@+id/navigation_destaques"
+        android:name="com.example.ingressocom.ui.destaques.DestaquesFragment"
+        android:label="@string/titulo_destaques"
+        app:labelVisibilityMode="labeled"
+        tools:layout="@layout/fragment_destaques" />
+
+    <fragment
+        android:id="@+id/navigation_filmes"
+        android:name="com.example.ingressocom.ui.filmes.FilmesFragment"
+        android:label="@string/titulo_filmes"
+        app:labelVisibilityMode="labeled"
+        tools:layout="@layout/fragment_filmes" />
+
+    <fragment
+        android:id="@+id/navigation_cinema"
+        android:name="com.example.ingressocom.ui.cinema.CinemaFragment"
+        android:label="@string/titulo_cinema"
+        app:labelVisibilityMode="labeled"
+        tools:layout="@layout/fragment_cinema" />
+
+    <fragment
+        android:id="@+id/navigation_noticias"
+        android:name="com.example.ingressocom.ui.noticias.NoticiasFragment"
+        android:label="@string/titulo_noticias"
+        app:labelVisibilityMode="labeled"
+        tools:layout="@layout/fragment_noticias" />
+</navigation>
