@@ -1,5 +1,7 @@
 README - Projeto Android: IngressoCom
+
 Descrição do Projeto
+
 O projeto IngressoCom é uma aplicação Android que consome dados de uma API de filmes e exibe as informações relevantes como nome, data de estreia, poster, e organiza os filmes em duas categorias:
 
 Destaques: Filmes que não têm data de estreia definida.
